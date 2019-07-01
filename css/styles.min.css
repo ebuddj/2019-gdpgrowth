@@ -1,0 +1,118 @@
+/* General styles */
+.clearfix___1yHqr {
+  zoom: 1;
+}
+.clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both___a0DL_ {
+  clear: both;
+}
+.hidden___1aMNf {
+  display: none;
+}
+.nowrap___2n1o8 {
+  white-space: nowrap;
+}
+.app___2khK2 {
+  text-align: center;
+}
+.app___2khK2 h3 {
+  font-family: verdana;
+  text-align: center;
+  text-transform: uppercase;
+}
+.app___2khK2 h3 span {
+  color: #f00;
+}
+.app___2khK2 .slider___fanFi {
+  -webkit-appearance: none;
+  -webkit-transition: opacity 0.2s;
+  appearance: none;
+  background: #ccc;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: 7px;
+  opacity: 0.7;
+  outline: none;
+  transition: opacity 0.2s;
+  width: 95%;
+}
+.app___2khK2 .slider___fanFi:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+.app___2khK2 .slider___fanFi::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+.app___2khK2 .slider___fanFi::-webkit-slider-thumb:before {
+  content: "";
+}
+.app___2khK2 .slider___fanFi::-moz-range-thumb {
+  background: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+.app___2khK2 legend {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.app___2khK2 legend div {
+  font-family: verdana;
+  font-weight: 600;
+}
+.app___2khK2 legend span {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: verdana;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  margin: 2px 2px;
+  opacity: 0.3;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.app___2khK2 legend span.africa___2MJJ- {
+  background-color: #e6194b;
+}
+.app___2khK2 legend span.asia___3VCC9 {
+  background-color: #3cb44b;
+}
+.app___2khK2 legend span.europe___2Znoa {
+  background-color: #f58231;
+}
+.app___2khK2 legend span.n_america___MCqwf {
+  background-color: #800000;
+}
+.app___2khK2 legend span.oceania___1iEaU {
+  background-color: #f032e6;
+}
+.app___2khK2 legend span.s_america___iQHqi {
+  background-color: #000075;
+}
+

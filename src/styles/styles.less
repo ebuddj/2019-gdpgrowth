@@ -1,0 +1,88 @@
+@import 'basics.less';
+
+.app {
+  text-align: center;
+  h3 {
+    font-family: verdana;
+    text-align: center;
+    text-transform: uppercase;
+    span {
+      color: #f00;
+    }
+  }
+  .slider {
+    -webkit-appearance: none;
+    -webkit-transition: opacity .2s;
+    appearance: none;
+    background: #ccc;
+    border-radius: 5px;   
+    border: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 7px;
+    opacity: 0.7;
+    outline: none;
+    transition: opacity .2s;
+    width: 95%;
+    &:hover {
+      opacity: 1; /* Fully shown on mouse-over */
+    }
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      background: #f00;
+      border-radius: 50%; 
+      cursor: pointer;
+      height: 25px;
+      width: 25px;
+      &:before {
+        content: "";
+      }
+    }
+    &::-moz-range-thumb {
+      background: #f00;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 25px;
+      width: 25px;
+    }
+  }
+  legend {
+    text-align: center;
+    margin-bottom: 20px;
+    div {
+      font-family: verdana;
+      font-weight: 600;
+    }
+    span {
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: verdana;
+      font-size: 18px;
+      letter-spacing: 0.02em;
+      margin: 2px 2px;
+      opacity: 0.3;
+      padding: 5px;
+      text-transform: uppercase;
+      &.africa {
+        background-color: rgba(230, 25, 75, 1);
+      }
+      &.asia {
+        background-color: rgba(60, 180, 75, 1);
+      }
+      &.europe {
+        background-color: rgba(245, 130, 49, 1);
+      }
+      &.n_america {
+        background-color: rgba(128, 0, 0, 1);
+      }
+      &.oceania {
+        background-color: rgba(240, 50, 230, 1);
+      }
+      &.s_america {
+        background-color: rgba(0, 0, 117, 1);
+      }
+    }
+  }
+}

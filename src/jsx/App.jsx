@@ -147,7 +147,7 @@ class App extends Component {
         <ResponsiveContainer width="100%" height={500} step={1} className={style.line_chart_container}>
           <ScatterChart margin={{top: 0, right: 0, bottom: 0, left: 0}}>
             <CartesianGrid strokeDasharray="3 3" vertical={false}/>
-            <YAxis type="number" dataKey="y" name="growth" unit=" %" domain={[-20, 30]} interval="preserveStartEnd" ticks={[-20,-10,-5,0,5,10,20,30]} hide={false} allowDataOverflow={true} allowDecimals={false} />
+            <YAxis type="number" dataKey="y" name="growth" unit="%" domain={[-20, 30]} interval="preserveStartEnd" ticks={[-20,-10,-5,0,5,10,20,30]} hide={false} allowDataOverflow={true} allowDecimals={false} />
             <Tooltip cursor={{ strokeDasharray: '3 3' }} formatter={(value, name, props) => {
               return [props.payload.name + ': ' + value.toLocaleString()];
             }}/>

@@ -137,12 +137,12 @@ class App extends Component {
         <input className={style.slider} type="range" min={1961} max={2017} value={this.state.year} onChange={() => this.sliderChange(event)}/>
         <legend>
           <div>Filter by continent</div>
-          <span onClick={() => this.selectContinent('Africa')} className={style.africa} style={this.state.active_continents.includes('Africa') ? {opacity: 1} : {}}>Africa</span>
-          <span onClick={() => this.selectContinent('Asia')} className={style.asia} style={this.state.active_continents.includes('Asia') ? {opacity: 1} : {}}>Asia</span>
           <span onClick={() => this.selectContinent('Europe')} className={style.europe} style={this.state.active_continents.includes('Europe') ? {opacity: 1} : {}}>Europe</span>
           <span onClick={() => this.selectContinent('N. America')} className={style.n_america} style={this.state.active_continents.includes('N. America') ? {opacity: 1} : {}}>N. America</span>
-          <span onClick={() => this.selectContinent('Oceania')} className={style.oceania} style={this.state.active_continents.includes('Oceania') ? {opacity: 1} : {}}>Oceania</span>
           <span onClick={() => this.selectContinent('S. America')} className={style.s_america} style={this.state.active_continents.includes('S. America') ? {opacity: 1} : {}}>S. America</span>
+          <span onClick={() => this.selectContinent('Africa')} className={style.africa} style={this.state.active_continents.includes('Africa') ? {opacity: 1} : {}}>Africa</span>
+          <span onClick={() => this.selectContinent('Asia')} className={style.asia} style={this.state.active_continents.includes('Asia') ? {opacity: 1} : {}}>Asia</span>
+          <span onClick={() => this.selectContinent('Oceania')} className={style.oceania} style={this.state.active_continents.includes('Oceania') ? {opacity: 1} : {}}>Oceania</span>
         </legend>
         <ResponsiveContainer width="100%" height={500} step={1} className={style.line_chart_container}>
           <ScatterChart margin={{top: 0, right: 0, bottom: 0, left: 0}}>

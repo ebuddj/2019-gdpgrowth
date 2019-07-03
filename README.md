@@ -6,5 +6,5 @@ This an experimental template for showing the GDP growth percent per country fro
 
 ## How to use
 
-`npm install`
-`npm start`
+* `npm install`
+* `npm start`

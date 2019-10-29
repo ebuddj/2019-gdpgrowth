@@ -9,7 +9,7 @@ GDP is the monetary value of all finished goods and services made within a count
 This is an experimental template for showing the GDP growth percent per country from 1961 to 2017. The economic crisis in 2008 and 2009 can be seen quite clearly.
 
 **Sources**
-* [World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG)
+* [The World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG)
 
 ## How to use
 

@@ -155,6 +155,7 @@ class App extends Component {
             }}/>
           </ScatterChart>
         </ResponsiveContainer>
+        <p>Source: <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG">The World Bank</a></p>
       </div>
     );
   }

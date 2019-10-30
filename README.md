@@ -2,7 +2,7 @@
 
 **Live demo** https://ebuddj.github.io/2019-gdpgrowth/
 
-## Gross Domestic Product (GDP) per Country (EBU)
+## Gross Domestic Product (GDP) Growth Rate per Country (EBU)
 
 GDP is the monetary value of all finished goods and services made within a country during a specific period. GDP provides an economic snapshot of a country, used to estimate the size of an economy and growth rate. 
 

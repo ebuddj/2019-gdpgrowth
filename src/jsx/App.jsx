@@ -63,9 +63,6 @@ class App extends Component {
   componentWillUnMount() {
     clearInterval(interval);
   }
-  componentWillReceiveProps(props) {
-
-  }
   getCountryColor(continent) {
     let continentColors = {
       'Africa':'rgba(230, 25, 75, 1)',

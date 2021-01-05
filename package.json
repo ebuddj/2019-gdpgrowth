@@ -31,7 +31,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "recharts": "^1.8.5",
     "underscore": "^1.10.2"
   }
